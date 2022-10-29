@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Redressed&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+ }
+
+ body{
+     font-size: 100%;
+     background: linear-gradient(58.15deg, rgb(162, 0, 255) 30.60%, rgb(0, 47, 255) 60.80%)
+ }
+
+ .cabecalho{
+    padding: 24;
+     display: flex;
+     margin-top: 20px;
+     align-items: unset;
+     flex-direction: row;
+     justify-content: space-around;
+     border-bottom: 2px solid white;
+ }
+
+ .dev-logo{
+     height: 80px;
+     margin-left: -150px;
+     margin-bottom: 30px;
+     border-radius: 150px;
+ }
+
+ button{
+    gap: 40px;
+    width: 105px;
+    height: 30px;
+    color: white;
+    margin-top: 40px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(68.15deg, rgb(47, 0, 255) 30.60%, rgb(0, 26, 255) 50.80%);
+}
+
+.item-cabecalho1:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.item-cabecalho:hover{
+    cursor: pointer;
+}
+
+.principal{
+    display: flex;
+    color: white;
+    font-size: 28px;
+    margin-top: -15px;
+    align-items: unset;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+}
+
+.principal-titulo{
+    margin-top: 120px;
+    margin-left: 155px;
+}
+
+.principal-subtitulo{
+    font-size: 18px;
+    margin-left: 158px;
+}
+
+.principal-explic{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 155px;
+    text-align: justify;
+    margin-right: 1000px;
+}
+
+.dev-logo2{
+    height: 400px;
+    margin-top: -210px;
+    margin-left: 1200px;
+    border-radius: 200px;
+}
+
+.redes{
+    display: flex;
+    margin-top: 110px;
+    align-items: unset;
+    border-top: 2px solid white;
+    justify-content: space-around;
+}
+
+.rede{
+    width: 80px;
+    height: 80px;
+    margin-right: 405px;
+}
+
+.link{
+    gap: 150px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-top: 150px;
+    margin-right: 375px;
+}
+
+.acompanhe{
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: -280px;
+    font-family: 'Saral', sans-serif;
+}
